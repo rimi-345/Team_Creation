@@ -25,5 +25,5 @@ jobs:
     - name: Get Repros
       run: curl -u ${{secrets.USR_NAM}}:${{secrets.PASS}} -H "Accept:application/vnd.github.v3+json" https://api.github.com/users/rimi-345/repos
     - name: Create Devops Team
-      run: curl -X POST -H "Accept:application/vnd.github.v3+json" -H "Authorization:${{secrets.PASS}}" https://api.github.com/orgs/ajaykatke2005/teams -d '{"name":"Devops"}'
+      run: curl -X POST -H "Accept:application/vnd.github.v3+json" -H "Authorization: token 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" https://api.github.com/orgs/ajaykatke2005/teams -d '{"name":"Devops"}'
 
