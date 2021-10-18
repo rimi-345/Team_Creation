@@ -23,4 +23,4 @@ jobs:
         distribution: 'adopt'
         
     - name: Get Repros
-      run: curl -u ${{secrets.USR_NAM}}:${{secrets.PASS}} -H "Accept:application/vnd.github.v3+json" https://api.github.com/users/rimmi-345/repos
+      run: curl -u ${{secrets.USR_NAM}}:${{secrets.PASS}} -H "Accept:application/vnd.github.v3+json" https://api.github.com/users/rimi-345/repos
