@@ -7,7 +7,7 @@ name: Java CI with Maven
 on:
   push:
     branches:
-      - disable2
+      - disable-2
       
     
 jobs:
