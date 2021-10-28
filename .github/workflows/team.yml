@@ -5,9 +5,8 @@ name: Create Teams [Devops, Dev and Testing] with appropriate permissions
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches:
+
 
 jobs:
   build:
